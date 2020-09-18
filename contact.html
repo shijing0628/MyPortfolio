@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- section 1 nav bar and banner -->
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <a href="index.html">
+                    <h1 class="logo">Brenda</h1>
+                </a>
+                <nav class="top-nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="index.html" class="nav-link" data-text="Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="resume.html" class="nav-link" data-text="Resume">Resume</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" class="nav-link" data-text="portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="nav-link" data-text="Contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+    <video autoplay muted loop id="myVideo">
+        <source src="/images/cover.mp4" type="video/mp4"></video>
+    <div class="container-contact-me">
+        <div class="row">
+            <div class="col-1">
+                <div class="image-container">
+                    <img src="images/bg.jpg" class="working-image" alt="my-image">
+                </div>
+            </div>
+            <div class="col-2">
+                <h1>Contact Me</h1>
+                <div class="contact-form">
+                    <form>
+                        <div class="name-email">
+                            <input type="text" id="fname" name="name" class="name" placeholder="Your Name..." required autofocus>
+                            <input type="email" id="fname" name="email" class="email" placeholder="Your Email..." required autofocus>
+                        </div>
+                        <textarea id="home-message" rows="4" cols="50" placeholder="Your message..." required autofocus></textarea>
+                        <input type="submit" value="Submit" class="contact-submit-btn" style="border-radius:25px;">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-contact-me">
+        <div class="container">
+            <div class="footer-content">
+                <p>Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+            </div>
+            <div class="footer-end">
+                <p>© 2018 Company. Privacy Policy | Terms & Conditions</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
