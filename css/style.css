@@ -740,3 +740,27 @@ footer .container {
 .contact-submit-btn:hover{
 background-color: green;
 }
+
+
+
+/* media query */
+@media (max-width:1352px){
+  .contact-info, .contact-form {
+    width:100%;
+  }
+}
+@media (max-width:604px){
+  .contact-info, .contact-form, .name-email {
+    display:block;
+}
+
+@media (max-width:500px){
+  .about-me-image{
+    width:250px;
+    height: 250px;
+
+  }
+  .nav-list li a{
+    font-size:15px;
+  }
+}
