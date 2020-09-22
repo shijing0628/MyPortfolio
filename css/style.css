@@ -18,6 +18,7 @@ h6 {
 body{
   font-size:18px;
   margin:0 auto;
+  
 }
 p {
   font-family: "Nunito", sans-serif;
@@ -29,7 +30,7 @@ p {
 /* nav bar */
 .header_background {
   position: relative;
-  background: linear-gradient(45deg,rgba(230, 175, 112, 0.5), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(45deg,rgba(248, 199, 184, 0.5), rgba(0, 0, 0, 0.7)),
     url("/images/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -709,8 +710,8 @@ footer .container {
 }
 
 .working-image {
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 15px;
    flex: 1 1 40%;
    padding:0 35px;
@@ -721,7 +722,7 @@ footer .container {
 .my-work-show {
   width: 60%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .my-work-show .container {
   width: 100%;
