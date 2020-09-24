@@ -130,10 +130,13 @@ p {
 .title h5 {
   margin-bottom: 35px;
 }
+.txt-type > .txt {
+  border-right: 0.2rem solid #ccc;
+}
 .banner-button {
   margin-top: 40px;
   width: 260px;
-  padding: 15px;
+  padding: 10px;
   background: linear-gradient(to right, #440402, #c0120c);
   font-family: "Dosis", sans-serif;
   font-size: 18px;
