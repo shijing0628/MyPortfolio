@@ -16,9 +16,9 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 body{
-  font-size:18px;
+  font-size:16px;
   margin:0 auto;
-  
+ 
 }
 p {
   font-family: "Nunito", sans-serif;
@@ -48,7 +48,7 @@ p {
   text-decoration: none;
 }
 .logo {
-  padding: 20px;
+  padding: 18px;
   font-family: "Great Vibes", cursive;
   font-size: 40px;
   color: #16c3cf;
@@ -75,7 +75,7 @@ p {
   display: block;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  font-size: 25px !important;
+  font-size: 20px;
   text-transform: uppercase;
   color: #ccc;
   background-color: #000;
@@ -136,7 +136,7 @@ p {
   padding: 15px;
   background: linear-gradient(to right, #440402, #c0120c);
   font-family: "Dosis", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   color: #fff;
   border: none;
@@ -194,25 +194,25 @@ p {
   display: flex;
   margin-top: 150px;
   width: 100%;
-
+ justify-content: space-between;
   flex-wrap: wrap;
-   justify-content: center;
-  align-items: center;
+ 
 }
 .about-me .col-1
 {
 flex: 1 1 40%;
 }
 .about-me .col-2 {
-  flex: 1 1 60%;
+  flex: 1 1 50%;
 }
 .about-me-content {
   display: flex;
   flex-direction: column;
+ 
 }
 .about-me-content h2 {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 .skill-list{
@@ -227,7 +227,6 @@ flex: 1 1 40%;
   background-color: aliceblue;
   margin:5px 5px;
   color: #16c3cf;
-  font-size:18px;
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
@@ -297,7 +296,7 @@ flex: 1 1 40%;
 }
 .social-icons .icon-link i {
   color: #16c3cf;
-  font-size: 30px;
+  font-size: 20px;
   width: 40px;
   height: 40px;
   background-color: #555;
@@ -331,7 +330,7 @@ flex: 1 1 40%;
 }
 
 .social-icons .icon-item:nth-child(1) .icon-link i::after {
-  background: #3b5999;
+  background: green;
 }
 .social-icons .icon-item:nth-child(2) .icon-link i::after {
   background: #cd201f;
@@ -349,9 +348,6 @@ flex: 1 1 40%;
 }
 
 /* social media 3D end */
-
-
-
 
 .my-skills {
   margin: 0 auto;
@@ -441,21 +437,38 @@ flex: 1 1 40%;
   font-size: 45px;
   text-align: center;
 }
-.my-service-col {
-  background: rgb(207 244 247);
-}
+
 .my-service-row {
   display: flex;
   flex-wrap: wrap;
   margin-top: 78px;
+  flex-direction: column;
 }
+.my-service-row .row-1, .my-service-row .row-2 {
+   display:flex;
+   flex-wrap: wrap;
+   flex: 1 1 50%;
+}
+
+/* .my-service-row .row-1 {
+  transform: translateX(-300px);
+  opacity: 0;
+  transition:all 2.5s;
+}
+
+.my-service-row .row-2{
+  transform:translateX(300px);
+  opacity: 0;
+  transition: all 2.5s;
+} */
 .my-service-col {
-  flex: 1 1 20%;
-  padding: 40px;
-  margin: 40px;
+background: rgb(207 244 247);
+  padding: 30px;
+  margin: 30px;
   margin-top: 20px;
   text-align: center;
   border-radius: 10px;
+  flex: 1 1 11%;
 }
 .my-service-col:hover {
   box-shadow: 0px 16px 24px rgba(38, 38, 38, 0.2),
@@ -499,7 +512,7 @@ flex: 1 1 40%;
   width: 200px;
   padding: 15px;
   font-family: "roboto condensed", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: transparent;
@@ -841,7 +854,7 @@ footer .container {
 .container-contact-me {
   width: 70%;
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 50px;
 }
 .container-contact-me .row {
   display: flex;
