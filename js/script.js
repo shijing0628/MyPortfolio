@@ -100,10 +100,3 @@ $('.owl-carousel').owlCarousel({
   autoplay: true,
   autoplayTimeout: 4000
 })
-
-//my work section filter function
-
-let filter = document.querySelector('.filter-container');
-filter.filterizr({
-  animationDuration: 0.5,
-});
