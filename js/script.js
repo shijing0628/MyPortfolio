@@ -93,3 +93,17 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+// Testimony
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 4000
+})
+
+//my work section filter function
+
+let filter = document.querySelector('.filter-container');
+filter.filterizr({
+  animationDuration: 0.5,
+});

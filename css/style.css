@@ -205,7 +205,7 @@ p {
 /* home page - about me */
 .about-me {
   margin-top: 250px;
-  max-width: 60%;
+  width: 70%;
   margin: 0 auto;
 
 }
@@ -246,6 +246,7 @@ p {
   border-radius: 10px;
 }
 
+/* skills */
 .skill-list {
   margin: 30px 20px;
   width: 100%;
@@ -395,6 +396,7 @@ p {
   margin-top: 150px;
   width: 70%;
   margin-bottom: 150px;
+
 }
 
 .my-skills .row {
@@ -476,6 +478,10 @@ p {
   margin-bottom: 10px;
 }
 
+.progress-inline h5 {
+  margin-bottom: 3px;
+}
+
 /* end of progress bar */
 
 /* section 4 my service */
@@ -489,9 +495,19 @@ p {
   width: 100%;
 }
 
+.my-service-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .my-service h2 {
   font-size: 45px;
   text-align: center;
+}
+
+.my-service-title p {
+  margin-top: 8px;
 }
 
 .my-service-row {
@@ -520,13 +536,18 @@ p {
   transition: all 2.5s;
 } */
 .my-service-col {
-  background: rgb(207 244 247);
+  background-image: linear-gradient(#4ca1af, #c4e0e5);
   padding: 30px;
   margin: 30px;
   margin-top: 20px;
   text-align: center;
   border-radius: 10px;
   flex: 1 1 11%;
+}
+
+.my-service-col img {
+  width: 40px;
+  height: 40px;
 }
 
 .my-service-col:hover {
@@ -664,6 +685,15 @@ p {
   flex: 1 1 25%;
 }
 
+.my-work-col img {
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+
+
+/* main page my work end */
+
 /* section 7 feedback */
 .testimony {
   margin: 0 auto;
@@ -682,12 +712,18 @@ p {
 }
 
 /* tesimony section */
-.item {
-  margin-top: 20px;
+.owl-carousel {
+  margin: 25px 20px;
+}
+
+.owl-carousel .item {
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  width: 60%;
+  margin: 10px 10px;
 }
 
 .owl-carousel img {
@@ -783,17 +819,48 @@ p {
 }
 
 footer {
-  background-color: black;
-  color: white;
-
+  background-color: #000;
+  color: #fff;
 }
 
 footer .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
+}
+
+footer .social-icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  width: 15%;
+  height: 15%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #262626;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+footer .social-icons i {
+  line-height: 15%;
+}
+
+footer .social-icons a:hover {
+  color: #e91e69;
+}
+
+footer .logo {
+  font-weight: bold;
+  color: #22a6b3;
+  text-decoration: none;
 }
 
 /* portfolio page */
@@ -959,6 +1026,7 @@ footer .container {
   width: 70%;
   margin: 0 auto;
   margin-top: 50px;
+  height: 75vh;
 }
 
 .container-contact-me .row {
@@ -1020,6 +1088,7 @@ footer .container {
 .contact-submit-btn:hover {
   background-color: #16c3cf;
 }
+
 
 
 
