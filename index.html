@@ -57,7 +57,7 @@
     <section class="about-me">
         <div class="container">
             <div class="col-1">
-                <img src="images/me.jpg" class="about-me-image" width="400" height="400" />
+                <img src="images/me.jpg" class="about-me-image" width="400" height="700" />
             </div>
             <div class="col-2">
                 <div class="about-me-content">
@@ -91,20 +91,7 @@
                         </ul>
                     </div>
                     <div class="social-icons">
-                        <!-- <ul class="social-media-icons">
-                            <li>
-                                <a href="#"><i class="fa fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter"></i> </a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-instagram"></i> </a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-linkedin"></i> </a>
-                            </li>
-                        </ul> -->
+                    
                         <ul class="icons">
                             <li class="icon-item">
                                 <a href="https://web.wechat.com/" class="icon-link"><i class="fa fa-wechat"></i></a>
@@ -291,36 +278,36 @@
         <div class="container">
             <h2>My Work</h2>
             <div class="my-work-button-list">
-                <button type="button" class="my-work-button" data-filter="all">All</button>
-                <button type="button" class="my-work-button" data-filter="1">UI/UX Design</button>
-                <button type="button" class="my-work-button" data-filter="2">Frontend</button>
-                <button type="button" class="my-work-button" data-filter="3">Backend</button>
-                <button type="button" class="my-work-button" data-filter="4">Database</button>
+                <button type="button" class="my-work-button fltr-controls" data-filter="all">All</button>
+                <button type="button" class="my-work-button fltr-controls" data-filter="1">UI/UX Design</button>
+                <button type="button" class="my-work-button fltr-controls" data-filter="2">Frontend</button>
+                <button type="button" class="my-work-button fltr-controls" data-filter="3">Backend</button>
+                <button type="button" class="my-work-button fltr-controls" data-filter="4">Database</button>
             </div>
             <div class="my-work-row filter-container">
-                <div class="my-work-col filtr-item" data-categroy="1,2,5">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="1,2,5">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="4,2,7">
-                    <img src="images/me.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="4,2,7">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="5,3,8">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="5,3,8">
+                    <img src="images/aboutme.jpg">
                 </div>
-                <div class="my-work-colfiltr-item" data-categroy="3,2,6">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="3,2,6">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="4,5">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="4,5">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="1,2,3">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="1,2,3">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="4,5,6">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="4,5,6">
+                    <img src="images/aboutme.jpg" >
                 </div>
-                <div class="my-work-col filtr-item" data-categroy="2,3,6">
-                    <img src="images/aboutme.jpg" width="300" height="200">
+                <div class="my-work-col filtr-item" data-category="2,3,6">
+                    <img src="images/aboutme.jpg" >
                 </div>
             </div>
         </div>
@@ -414,17 +401,11 @@
         </div>
     </footer>
     <!-- end of section 8 -->
-    <script src="lib/filterizr.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.filterizr.min.js"></script>
     <script src="lib/owl.carousel.min.js"></script>
     <script src="lib/typed.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        //my work section filter function
-        let filter = document.querySelector('.filter-container');
-        filter.filterizr({
-            animationDuration: 0.5,
-        });
-    </script>
+   
 </body>
 
 </html>

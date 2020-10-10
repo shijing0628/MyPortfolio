@@ -100,3 +100,13 @@ $('.owl-carousel').owlCarousel({
   autoplay: true,
   autoplayTimeout: 4000
 })
+
+
+//my work section filter function
+let filterizr = new window.Filterizr('.filter-container', {
+  controlsSelector: '.fltr-controls',
+  gutterPixels: 15,
+  spinner: {
+    enabled: true,
+  },
+});

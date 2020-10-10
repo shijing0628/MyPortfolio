@@ -13,46 +13,43 @@ body {
 .project-list {
   margin-top: 150px;
   position: relative;
-  height: 500px;
   margin-bottom: 50px;
 }
 
 .project-image img {
   position: absolute;
-  top: 0;
+  top: -40px;
   left: 0;
   width: 40%;
   height: 550px;
   margin-left: 3%;
+  z-index: -1;
 }
 
 .project-image-2 img {
   position: absolute;
-  top: 0;
+  top: -40px;
   right: 0;
   width: 40%;
   height: 550px;
   margin-right: 3%;
+  z-index: -1;
 }
 
 .project-info {
-  position: absolute;
-  top: 50px;
-  left: 10%;
-  width: 35%;
+  width: 70%;
   background-color: #fff;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   padding: 20px;
+  margin-left: 10%;
 }
 
 .project-info-2 {
-  position: absolute;
-  top: 50px;
-  right: 10%;
-  width: 35%;
+  width: 70%;
   background-color: #fff;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   padding: 20px;
+  margin-left: 10%;
 }
 
 .project-info h3,
@@ -114,22 +111,20 @@ body {
 }
 
 .my-projects {
-  overflow: scroll;
 }
 
-@media only screen and (max-width: 1000px) {
-    {
-    .project-list {
-      display: flex;
-
-    }
-
-    .project-list img {
-      flex: 1 1 45%;
-    }
-
-    .project-info {
-      flex: 1 1 55%;
-    }
-
+@media only screen and (max-width: 820px) {
+  .project-list {
+    display: flex;
   }
+
+  .project-list img {
+    flex: 1 1 25%;
+  }
+
+  .project-info,
+  .project-info-2 {
+    flex: 1 1 75%;
+    width: 75%;
+  }
+}

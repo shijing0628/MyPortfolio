@@ -548,6 +548,7 @@ p {
 
 .my-service-col:hover {
   transform: scale(1.1);
+   background-image: linear-gradient(#c4e0e5,#4ca1af);
 }
 
 .my-service-col img {
@@ -693,11 +694,14 @@ p {
 
 .my-work-col {
   flex: 1 1 25%;
+  max-width: 25%;
 }
 
 .my-work-col img {
   border-radius: 10px;
   margin-bottom: 25px;
+      width: 100%;
+    height: auto;
 }
 
 
