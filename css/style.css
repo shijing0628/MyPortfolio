@@ -680,7 +680,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
 }
 
 .my-work-button {
@@ -739,7 +739,7 @@ p {
 }
 
 /* tesimony section */
-.owl-carousel {
+/* .owl-carousel {
   margin: 25px 20px;
 }
 
@@ -757,7 +757,7 @@ p {
   height: 100px;
   border-radius: 50%;
   margin-right: 1%;
-}
+} */
 
 /* section 8 home page contact */
 .contact {
@@ -1050,6 +1050,7 @@ section.slider {
   padding: 1rem 0;
   /* set relative for buttons */
   position: relative;
+  margin-bottom: 100px;
 }
 .reviews {
   margin-bottom: 4rem;
