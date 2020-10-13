@@ -20,7 +20,6 @@ h6 {
 body {
   font-size: 16px;
   margin: 0 auto;
-
 }
 
 p {
@@ -137,7 +136,7 @@ p {
 
 .title h1 {
   margin-bottom: 30px;
-  font-size:50px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -145,7 +144,7 @@ p {
   margin-bottom: 35px;
 }
 
-.txt-type>.txt {
+.txt-type > .txt {
   border-right: 0.2rem solid #ccc;
 }
 
@@ -208,7 +207,6 @@ p {
   margin-top: 250px;
   width: 70%;
   margin: 0 auto;
-
 }
 
 .about-me .container {
@@ -218,7 +216,6 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
 .about-me .col-1 {
@@ -234,7 +231,6 @@ p {
 .about-me-content {
   display: flex;
   flex-direction: column;
-
 }
 
 .about-me-content h2 {
@@ -252,7 +248,6 @@ p {
   margin: 30px 20px;
   width: 100%;
   margin-left: 0;
-
 }
 
 .skill-list li {
@@ -397,7 +392,6 @@ p {
   margin-top: 150px;
   width: 70%;
   margin-bottom: 150px;
-
 }
 
 .my-skills .row {
@@ -454,7 +448,6 @@ p {
 .progress-so-far {
   animation: PROGRESS 5s 1 ease-out forwards;
 }
-
 
 @keyframes PROGRESS-REACT {
   0% {
@@ -537,25 +530,25 @@ p {
   transition: all 2.5s;
 } */
 .my-service-col {
-  background-image: linear-gradient(#9DCAD0, #c4e0e5);
+  background-image: linear-gradient(#9dcad0, #c4e0e5);
   padding: 30px;
   margin: 30px;
   margin-top: 20px;
   text-align: center;
   border-radius: 10px;
   flex: 1 1 11%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .my-service-col:hover {
   transform: scale(1.1);
-   background-image: linear-gradient(#c4e0e5,#4ca1af);
+  background-image: linear-gradient(#c4e0e5, #4ca1af);
 }
 
 .my-service-col img {
   width: 40px;
   height: 40px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .my-service-col img:hover {
@@ -583,7 +576,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  background-color: #f6f6f6;;
+  background-color: #f6f6f6;
   padding-top: 100px;
   padding-bottom: 100px;
   align-items: center;
@@ -691,12 +684,12 @@ p {
 }
 
 .my-work-button {
- -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   background-color: #000;
   border: none;
   color: #fff;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 100;
   text-decoration: none;
@@ -709,9 +702,9 @@ p {
   border-radius: 10px;
 }
 
-.my-work-button:hover{
+.my-work-button:hover {
   background-color: #16c3cf;
-    color: #fff;
+  color: #fff;
 }
 
 .my-work-col {
@@ -722,11 +715,9 @@ p {
 .my-work-col img {
   border-radius: 10px;
   margin-bottom: 25px;
-      width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
-
 
 /* main page my work end */
 
@@ -734,7 +725,7 @@ p {
 .testimony {
   margin: 0 auto;
   width: 70%;
-  background-image: linear-gradient(#9DCAD0, #c4e0e5);
+  background-image: linear-gradient(#9dcad0, #c4e0e5);
 }
 
 .testimony .container {
@@ -753,7 +744,6 @@ p {
 }
 
 .owl-carousel .item {
-
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -835,7 +825,7 @@ p {
   border-radius: 5px;
   padding-left: 1%;
   font-size: 16px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .contact-form input:foucs {
@@ -872,7 +862,6 @@ footer .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 footer .social-icons {
@@ -936,8 +925,6 @@ footer .logo {
   border-radius: 50%;
 }
 
-
-
 /* contact me page */
 
 #myVideo {
@@ -984,7 +971,6 @@ footer .logo {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-
 }
 
 .container-contact-me .row .col-2 {
@@ -1023,34 +1009,158 @@ footer .logo {
   background-color: #16c3cf;
 }
 
-
-
-
 /* media query */
-@media (max-width:1352px) {
-
+@media (max-width: 1352px) {
   .contact-info,
   .contact-form {
     width: 100%;
   }
 }
 
-@media (max-width:604px) {
-
+@media (max-width: 604px) {
   .contact-info,
   .contact-form,
   .name-email {
     display: block;
   }
-
-  @media (max-width:500px) {
-    .about-me-image {
-      width: 250px;
-      height: 250px;
-
-    }
-
-    .nav-list li a {
-      font-size: 15px;
-    }
+}
+@media (max-width: 500px) {
+  .about-me-image {
+    width: 250px;
+    height: 250px;
   }
+
+  .nav-list li a {
+    font-size: 15px;
+  }
+}
+
+/*
+=============== 
+Slider Styles
+===============
+*/
+section.slider {
+  width: 85vw;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  text-align: center;
+  padding: 1rem 0;
+  /* set relative for buttons */
+  position: relative;
+}
+.reviews {
+  margin-bottom: 4rem;
+}
+.reviews h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.reviews span {
+  font-size: 30px;
+  color: #16c3cf;
+  margin-right: 1rem;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid grey;
+  background: var(--clr-white);
+  padding: 0.25rem;
+  border-radius: 50%;
+  box-shadow: goldenrod;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 2px;
+  margin: 0.5rem 0;
+}
+.title {
+  margin-bottom: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+.text {
+  color: grey;
+  line-height: 1.8;
+  max-width: 35em;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.quote-icon {
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: #16c3cf;
+}
+/* set buttons */
+.btn {
+  position: absolute;
+  top: 175px;
+  background: grey;
+  color: #fff;
+  padding: 0.25rem 0.35rem;
+  border-radius: 0.25rem;
+  border: transparent;
+  cursor: pointer;
+}
+.next-btn {
+  right: -0.5rem;
+}
+.prev-btn {
+  left: -0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .next-btn {
+    right: -5rem;
+  }
+  .prev-btn {
+    left: -5rem;
+  }
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.35rem 0.5rem;
+  }
+  .quote-icon {
+    font-size: 4rem;
+  }
+}
+
+/* MORE CSS FOR JS */
+
+.slide-container {
+  display: flex;
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+.slide.next {
+  transform: translateX(100%);
+}
+.slide.last {
+  transform: translateX(-100%);
+}

@@ -95,11 +95,11 @@ function init() {
 }
 
 // Testimony
-$('.owl-carousel').owlCarousel({
-  loop: true,
-  autoplay: true,
-  autoplayTimeout: 4000
-})
+// $('.owl-carousel').owlCarousel({
+//   loop: true,
+//   autoplay: true,
+//   autoplayTimeout: 4000
+// })
 
 
 //my work section filter function
@@ -110,3 +110,4 @@ let filterizr = new window.Filterizr('.filter-container', {
     enabled: true,
   },
 });
+
