@@ -1000,13 +1000,14 @@ footer .logo {
   font-size: 16px;
   transition: all 0.5s;
   text-transform: uppercase;
-  background-color: tomato;
+  background-color: #16c3cf;
   color: #fff;
   padding: 10px;
 }
 
 .contact-submit-btn:hover {
-  background-color: #16c3cf;
+  background-color: yellowgreen;
+  color: #000;
 }
 
 /* media query */
