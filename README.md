@@ -8,4 +8,4 @@ Also can download my CV on home page.
 
 CSS use flex box.
 
-![](2020-10-11-16-48-08.png)
+![](2020-10-13-12-20-01.png)
