@@ -33,8 +33,7 @@ p {
 /* nav bar */
 .header_background {
   position: relative;
-  background: linear-gradient(45deg, rgba(248, 199, 184, 0.5), rgba(0, 0, 0, 0.7)),
-    url("/images/bg1.jpg");
+  background: url("/images/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -138,6 +137,8 @@ p {
 
 .title h1 {
   margin-bottom: 30px;
+  font-size:50px;
+  font-weight: bold;
 }
 
 .title h5 {
@@ -536,7 +537,7 @@ p {
   transition: all 2.5s;
 } */
 .my-service-col {
-  background-image: linear-gradient(#4ca1af, #c4e0e5);
+  background-image: linear-gradient(#9DCAD0, #c4e0e5);
   padding: 30px;
   margin: 30px;
   margin-top: 20px;
@@ -581,9 +582,8 @@ p {
 .freelancer {
   display: flex;
   flex-direction: column;
-
   margin: 0 auto;
-  background-color: #ccc;
+  background-color: #f6f6f6;;
   padding-top: 100px;
   padding-bottom: 100px;
   align-items: center;
@@ -602,17 +602,16 @@ p {
 }
 
 .hire-me-btn,
-.my-work-button,
 .contact-form-btn {
-  width: 200px;
+  width: 150px;
   padding: 15px;
-  font-family: "roboto condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: transparent;
   color: black;
-  border-radius: 50px;
+  border-radius: 10px;
   border: 2px solid #16c3cf;
   cursor: pointer;
   transition: transform 0.3s;
@@ -620,7 +619,6 @@ p {
 }
 
 .hire-me-btn:hover,
-.my-work-button:hover,
 .contact-form-btn:hover {
   background-color: #16c3cf;
   color: #fff;
@@ -692,6 +690,30 @@ p {
   margin-bottom: 200px;
 }
 
+.my-work-button {
+ -webkit-font-smoothing: antialiased;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 1px;
+  color: white;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-out;
+  border-radius: 10px;
+}
+
+.my-work-button:hover{
+  background-color: #16c3cf;
+    color: #fff;
+}
+
 .my-work-col {
   flex: 1 1 25%;
   max-width: 25%;
@@ -712,7 +734,7 @@ p {
 .testimony {
   margin: 0 auto;
   width: 70%;
-  background-color: rgb(207 244 247);
+  background-image: linear-gradient(#9DCAD0, #c4e0e5);
 }
 
 .testimony .container {
@@ -916,15 +938,14 @@ footer .logo {
 
 /* portfolio page work section */
 .my-work-show {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 50px;
 }
 
 .my-work-show .container {
   width: 100%;
-  background-color: rgb(207 244 247);
-  height: 800px;
+ background-image: linear-gradient(#9DCAD0, #c4e0e5);
   display: flex;
   margin-bottom: 40px;
   padding: 25px;
@@ -948,84 +969,6 @@ footer .logo {
   justify-content: space-evenly;
 }
 
-/* card */
-.card {
-  width: 200px;
-  height: 200px;
-  perspective: 600px;
-  transform-style: preserve-3d;
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.card .front {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  transform: rotateX(-0deg);
-  transition: 0.5s;
-  backface-visibility: hidden;
-  border-radius: 10px;
-}
-
-.card:hover .front {
-  transform: rotateX(-180deg);
-}
-
-.card .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  transform: rotateX(180deg);
-  transition: 0.5s;
-  backface-visibility: hidden;
-  border-radius: 10px;
-}
-
-.card:hover .back {
-  transform: rotateX(0deg);
-}
-
-.details {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  transform: translateY(-50%);
-}
-
-.details h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  color: white;
-}
-
-.details span {
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
 
 /* contact me page */
 
