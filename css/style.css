@@ -290,7 +290,15 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+.my-skills a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #16c3cf;
+  transition: all 0.5s;
+}
+.my-skills a:hover {
+  color: tomato;
+}
 /* .social-media-icons {
   margin-top: 25px;
   font-size: 40px;
@@ -426,6 +434,9 @@ p {
 
 .my-skills .col-1 {
   flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .my-skills .col-2 {
